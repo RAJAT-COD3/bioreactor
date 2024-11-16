@@ -6,7 +6,6 @@ with st.expander("", expanded=True):
 # Title and headers
     st.title("Bioprocess Assignment")
     st.subheader("Submitted to Dr. Bunushree Behera")
-    st.markdown("---")
 
 # Sidebar for parameters
 st.sidebar.header("Simulation Parameters")
