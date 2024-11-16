@@ -3,3 +3,5 @@ matplotlib==3.8.0
 numpy==1.26.0
 scipy==1.11.3
 zlib-ng
+pillow==10.2.0
+streamlit
