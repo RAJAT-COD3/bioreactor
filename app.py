@@ -2,10 +2,11 @@ import streamlit as st
 import matplotlib.pyplot as plt
 from batch_reactor import run_simulation
 
+with st.expander("Bioprocess Assignment", expanded=True):
 # Title and headers
-st.title("Bioprocess Assignment")
-st.subheader("Submitted to Dr. Bunushree Behera")
-st.markdown("---")
+    st.title("Bioprocess Assignment")
+    st.subheader("Submitted to Dr. Bunushree Behera")
+    st.markdown("---")
 
 # Sidebar for parameters
 st.sidebar.header("Simulation Parameters")
