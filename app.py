@@ -1,6 +1,6 @@
 import streamlit as st
 import matplotlib.pyplot as plt
-from batch_reactor import run_simulation
+from fed_batch_reactor import run_simulation
 
 with st.expander("", expanded=True):
 # Title and headers
